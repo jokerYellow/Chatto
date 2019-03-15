@@ -12,6 +12,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/badoo/Chatto.git", :tag => s.version.to_s }
   s.source_files = "Chatto/Source/**/*.{h,m,swift}"
   s.public_header_files = "Chatto/Source/**/*.h"
+  s.swift_version = '3.2'
   s.requires_arc = true
   s.swift_version = '4.2'
 end
